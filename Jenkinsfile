@@ -6,7 +6,7 @@ pipeline {
     registryCredential = 'NANI'
     dockerImage = ''
   }
-    agent any
+    agent {'worker3'}
 
     stages {
         
