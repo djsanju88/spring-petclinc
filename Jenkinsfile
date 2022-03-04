@@ -2,8 +2,8 @@
 pipeline {
     
     environment {
-    imagename = "sudheer38/n-project"
-    registryCredential = 'ID1'
+    imagename = "varaprasadthatisetti/n-project"
+    registryCredential = 'NANI'
     dockerImage = ''
   }
     agent any
